@@ -1,0 +1,198 @@
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+    <link href="ui.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="actionmenu">
+      <div class="container">
+        <div class="containerInline">
+            <section class="left">
+                <div class="centerDiv">
+                    <img class="category_arma" category="all" src="images/lojinha.png">
+                </div>
+                <div class="sectionItem item-category category_arma" category="utilidades"> 
+                    <p>Utilidades</p>
+                </div>
+                <!--<div class="sectionItem item-category category_arma" category="equipamentos">
+                    <p>Equipamentos</p>
+                </div>-->
+                <div class="sectionItem item-category category_arma" category="bebidas">
+                    <p>Bebidas</p>
+                </div>
+                <div class="sectionItem item-category category_arma" category="ferramentas">
+                    <p>Ferramentas</p>
+                </div>
+            </section>
+ 
+            <section class="right">
+                <div class="sectionContent">
+                    <!--UTILIDADES-->
+                    <div class="sectionItem arma-item" category="utilidades">
+                        <p>Celular x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/celular.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="utilidades-comprar-celular" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$3000</p>
+                    </div>
+                    
+                    <div class="sectionItem arma-item" category="utilidades">
+                        <p>Mochila x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/mochila.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="utilidades-comprar-mochila" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$6000</p>
+                    </div>
+                    
+                    <div class="sectionItem arma-item" category="utilidades">
+                        <p>Radio x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/radio.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="utilidades-comprar-radio" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$3000</p>
+                    </div>
+                    
+                    <div class="sectionItem arma-item" category="utilidades">
+                        <p>Roupas x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/roupas.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="utilidades-comprar-roupas" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$3000</p>
+                    </div>
+                    
+                    <div class="sectionItem arma-item" category="utilidades">
+                        <p>Aliança x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/alianca.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="utilidades-comprar-alianca" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$500</p>
+                    </div>
+                    
+                    <!--FERRAMENTAS-->
+ 
+                    <div class="sectionItem arma-item" category="ferramentas">
+                        <p>Militec x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/militec.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="utilidades-comprar-militec" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$4500</p>
+                    </div>
+ 
+                    <div class="sectionItem arma-item" category="ferramentas">
+                        <p>Kit de Reparos x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/repairkit.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="utilidades-comprar-repairkit" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$8500</p>
+                    </div>
+ 
+                    <!--equipamentos
+                    <div class="sectionItem arma-item" category="equipamentos">
+                        <p>Radio x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/radio.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="utilidades-comprar-radio" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$3000</p>
+                    </div>
+ 
+                    <div class="sectionItem arma-item" category="equipamentos">
+                        <p>Mochila x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/mochila.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="vestuario-comprar-mochila" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$6000</p>
+                    </div>
+ 
+                    <div class="sectionItem arma-item" category="equipamentos">
+                        <p>Roupas x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/roupas.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="vestuario-comprar-roupas" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$3000</p>
+                    </div>
+ 
+                    <div class="sectionItem arma-item" category="equipamentos">
+                        <p>Aliança x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/alianca.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="vestuario-comprar-alianca" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$900</p>
+                    </div>-->
+ 
+                    <div class="sectionItem arma-item" category="bebidas">
+                        <p>Energetico x1</p>
+ 
+                        <div class="imgIcon">
+                            <img src="images/energetico.png">
+                        </div>
+                        <div class="overlayItem">  
+                          <button data-action="utilidades-comprar-energetico" class="menuoption">Comprar</button>
+                        </div>
+ 
+                        <p class="priceItem">$3000</p>
+                    </div>
+                    
+ 
+                </div>
+            </section>
+        </div>
+    </div>
+    </div>
+    <script src="ui.js" type="text/javascript"></script>
+  </body>
+</html>
